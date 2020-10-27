@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Building TI.kml</name>
+	<open>1</open>
+	<Folder>
+		<name>BuildingIT</name>
+		<open>1</open>
+		<GroundOverlay>
+			<name>Lantai 1</name>
+			<Icon>
+				<href>http://i66.tinypic.com/2vimc9f.png</href>
+				<refreshMode>onInterval</refreshMode>
+				<refreshInterval>300</refreshInterval>
+				<viewBoundScale>0.75</viewBoundScale>
+			</Icon>
+			<LatLonBox>
+				<north>-2.215948216521124</north>
+				<south>-2.21617681332597</south>
+				<east>113.8987438022913</east>
+				<west>113.8984904379078</west>
+				<rotation>-150.1110835406022</rotation>
+			</LatLonBox>
+		</GroundOverlay>
+	</Folder>
+	<Folder>
+		<name>BuildingKelas</name>
+		<open>1</open>
+		<Style>
+			<ListStyle>
+				<listItemType>check</listItemType>
+				<bgColor>00ffffff</bgColor>
+				<maxSnippetLines>2</maxSnippetLines>
+			</ListStyle>
+		</Style>
+		<Folder>
+			<name>Lantai 1</name>
+			<open>1</open>
+			<GroundOverlay>
+				<name>Lantai 1</name>
+				<Icon>
+					<href>http://i65.tinypic.com/k0frll.jpg</href>
+					<viewBoundScale>0.75</viewBoundScale>
+				</Icon>
+				<LatLonBox>
+					<north>-2.216044444444445</north>
+					<south>-2.216455555555556</south>
+					<east>113.8984361111111</east>
+					<west>113.8982722222222</west>
+					<rotation>210.6689</rotation>
+				</LatLonBox>
+			</GroundOverlay>
+		</Folder>
+		<Folder>
+			<name>Lantai 2</name>
+			<visibility>0</visibility>
+			<GroundOverlay>
+				<name>Lantai 2</name>
+				<visibility>0</visibility>
+				<Icon>
+					<href>http://i68.tinypic.com/vcz60z.jpg</href>
+					<viewBoundScale>0.75</viewBoundScale>
+				</Icon>
+				<LatLonBox>
+					<north>-2.216045415729297</north>
+					<south>-2.21645592130346</south>
+					<east>113.8984355227103</east>
+					<west>113.8982748039256</west>
+					<rotation>210.6688930993909</rotation>
+				</LatLonBox>
+			</GroundOverlay>
+		</Folder>
+	</Folder>
+	<Folder>
+		<name>BuildingArsitek</name>
+		<visibility>0</visibility>
+		<open>1</open>
+		<GroundOverlay>
+			<name>Lantai 2 Arsitek</name>
+			<visibility>0</visibility>
+			<Icon>
+				<href>http://i63.tinypic.com/2qx2l2q.jpg</href>
+				<refreshMode>onInterval</refreshMode>
+				<refreshInterval>60</refreshInterval>
+				<viewBoundScale>0.75</viewBoundScale>
+			</Icon>
+			<LatLonBox>
+				<north>-2.216127777777778</north>
+				<south>-2.216269444444444</south>
+				<east>113.8981027777778</east>
+				<west>113.8978416666667</west>
+				<rotation>-149.3744</rotation>
+			</LatLonBox>
+		</GroundOverlay>
+	</Folder>
+	<Folder>
+		<name>BuildingRuangKelasII</name>
+		<visibility>0</visibility>
+		<open>1</open>
+		<GroundOverlay>
+			<name>Lantai 2 Kelas 2</name>
+			<visibility>0</visibility>
+			<Icon>
+				<href>http://i64.tinypic.com/x3y4nl.jpg</href>
+				<refreshMode>onInterval</refreshMode>
+				<refreshInterval>300</refreshInterval>
+				<viewBoundScale>0.75</viewBoundScale>
+			</Icon>
+			<LatLonBox>
+				<north>-2.216324</north>
+				<south>-2.216595</south>
+				<east>113.897916</east>
+				<west>113.897806</west>
+				<rotation>-150.5504</rotation>
+			</LatLonBox>
+		</GroundOverlay>
+	</Folder>
+	<Folder>
+		<name>BuildingSipil</name>
+		<visibility>0</visibility>
+		<open>1</open>
+		<GroundOverlay>
+			<name>Lantai 2 Sipil</name>
+			<visibility>0</visibility>
+			<Icon>
+				<href>http://i64.tinypic.com/e1ez4y.jpg</href>
+				<viewBoundScale>0.75</viewBoundScale>
+			</Icon>
+			<LatLonBox>
+				<north>-2.216570867486711</north>
+				<south>-2.216755448300685</south>
+				<east>113.8976167063517</east>
+				<west>113.8973458700293</west>
+				<rotation>121.0450905842079</rotation>
+			</LatLonBox>
+		</GroundOverlay>
+	</Folder>
+	<Folder>
+		<name>Lab 4 5</name>
+		<open>1</open>
+		<GroundOverlay>
+			<name>Lab 4 dan lab 5</name>
+			<Icon>
+				<href>http://i67.tinypic.com/2nqgnyx.png</href>
+				<viewBoundScale>0.75</viewBoundScale>
+			</Icon>
+			<LatLonBox>
+				<north>-2.214827233555522</north>
+				<south>-2.215118939505278</south>
+				<east>113.8981967350438</east>
+				<west>113.8980588089869</west>
+				<rotation>31.71819639224529</rotation>
+			</LatLonBox>
+		</GroundOverlay>
+	</Folder>
+</Document>
+</kml>

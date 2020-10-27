@@ -1,0 +1,354 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light"
+    tools:context="com.example.hown.lbsftupr.BerandaActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/w2"
+        android:orientation="vertical"
+        android:weightSum="4">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:baselineAligned="false"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/c1"
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:layout_margin="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="0.33"
+                android:clickable="true"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="5dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+
+                    android:layout_height="match_parent"
+                    android:background="@android:color/holo_green_dark">
+
+                    <ImageView
+                        android:id="@+id/buttonTT"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_above="@+id/textViewTT"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginBottom="5dp"
+                        android:scaleType="center"
+                        android:src="@drawable/icon_rules" />
+
+                    <TextView
+                        android:id="@+id/textViewTT"
+                        fontPath="fonts/Poppins-SemiBold.otf"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginBottom="5dp"
+                        android:maxLines="1"
+                        android:text="Lihat Tata Tertib"
+                        android:textStyle="bold"
+                        tools:ignore="MissingPrefix" />
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/c2"
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:layout_margin="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="0.33"
+                android:clickable="true"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="5dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+
+                    android:layout_height="match_parent"
+                    android:background="@android:color/holo_green_dark">
+
+                    <ImageView
+                        android:id="@+id/jadwalButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_above="@+id/textViewLJ"
+                        android:layout_centerHorizontal="true"
+
+                        android:layout_marginBottom="5dp"
+                        android:scaleType="center"
+                        android:src="@drawable/icon_jadwal2" />
+
+                    <TextView
+
+                        android:id="@+id/textViewLJ"
+                        fontPath="fonts/Poppins-SemiBold.otf"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginBottom="5dp"
+                        android:maxLines="1"
+                        android:text="Lihat Jadwal"
+                        android:textStyle="bold"
+                        tools:ignore="MissingPrefix" />
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/c3"
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:layout_margin="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="0.33"
+                android:clickable="true"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="5dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+
+                    android:layout_height="match_parent"
+                    android:background="@android:color/holo_green_dark">
+
+                    <ImageView
+                        android:id="@+id/mapButton2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_above="@+id/textViewLM"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginBottom="5dp"
+                        android:scaleType="center"
+                        android:src="@drawable/icon_map2" />
+
+                    <TextView
+
+                        android:id="@+id/textViewLM"
+                        fontPath="fonts/Poppins-SemiBold.otf"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginBottom="5dp"
+
+                        android:maxLines="1"
+                        android:text="Lihat Map"
+
+                        android:textStyle="bold"
+                        tools:ignore="MissingPrefix" />
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:baselineAligned="false"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/c4"
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:layout_margin="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="0.33"
+                android:clickable="true"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="5dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+
+                    android:layout_height="match_parent"
+                    android:background="@android:color/holo_green_dark">
+
+                    <ImageView
+                        android:id="@+id/ReminderButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_above="@+id/textViewA"
+
+                        android:layout_centerHorizontal="true"
+                        android:scaleType="center"
+                        android:src="@drawable/icon_alarm" />
+
+                    <TextView
+                        android:id="@+id/textViewA"
+                        fontPath="fonts/Poppins-SemiBold.otf"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginBottom="5dp"
+                        android:maxLines="1"
+                        android:text="Alarm"
+                        android:textStyle="bold"
+                        tools:ignore="MissingPrefix" />
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/home_mSend"
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:layout_margin="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="0.33"
+                android:clickable="true"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="5dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+
+                    android:layout_height="match_parent"
+                    android:background="@android:color/holo_green_dark">
+
+                    <ImageView
+                        android:id="@+id/buttonPic"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_above="@+id/textView2"
+
+
+                        android:layout_centerHorizontal="true"
+                        android:scaleType="center"
+                        android:src="@drawable/icon_picture" />
+
+                    <TextView
+
+                        android:id="@+id/textView2"
+                        fontPath="fonts/Poppins-SemiBold.otf"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginBottom="5dp"
+                        android:maxLines="1"
+                        android:text="Lihat Gambar"
+                        android:textStyle="bold"
+                        tools:ignore="MissingPrefix" />
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/home_mCar"
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:layout_margin="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="0.33"
+                android:clickable="true"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="5dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+
+                    android:layout_height="match_parent"
+                    android:background="@android:color/holo_green_dark">
+
+                    <ImageView
+                        android:id="@+id/settingbutton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_above="@+id/textViewS"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginBottom="5dp"
+                        android:scaleType="center"
+                        android:src="@drawable/icon_setting2" />
+
+                    <TextView
+
+                        android:id="@+id/textViewS"
+                        fontPath="fonts/Poppins-SemiBold.otf"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginBottom="5dp"
+
+                        android:maxLines="1"
+                        android:text="Setting"
+
+                        android:textStyle="bold"
+                        tools:ignore="MissingPrefix" />
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="370dp"
+            android:layout_height="wrap_content"
+            android:baselineAligned="false"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/home_mRide"
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:layout_margin="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="0.33"
+                android:clickable="true"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="5dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+
+                    android:layout_height="match_parent"
+                    android:background="@android:color/holo_green_dark">
+
+                    <ImageView
+
+                        android:id="@+id/buttonLogout"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_above="@+id/textView3"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginBottom="5dp"
+                        android:scaleType="center"
+                        android:src="@drawable/icon_logout2" />
+
+                    <TextView
+                        android:id="@+id/textView3"
+                        fontPath="fonts/Poppins-SemiBold.otf"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginBottom="5dp"
+                        android:maxLines="1"
+                        android:text="Logout"
+                        android:textStyle="bold"
+                        tools:ignore="MissingPrefix" />
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</FrameLayout>

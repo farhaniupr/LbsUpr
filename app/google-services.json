@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "543125520620",
+    "firebase_url": "https://lbs-penyajian-ruang.firebaseio.com",
+    "project_id": "lbs-penyajian-ruang",
+    "storage_bucket": "lbs-penyajian-ruang.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:543125520620:android:41777d882f0b73cc80a5c9",
+        "android_client_info": {
+          "package_name": "com.example.hown.lbsftupr"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "543125520620-f6rbbu4iu0bnpss3th1pptrj0ecu1n1e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.hown.lbsftupr",
+            "certificate_hash": "5b7ea903fd6a49b3c99d83f7d3aa8ae196414550"
+          }
+        },
+        {
+          "client_id": "543125520620-jnh5f0ehoaejqtj9cgsfh2kdas5e6p90.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDWfxBU3XjDlynGYu9yEhdvLwSc2H3N1oM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "543125520620-jnh5f0ehoaejqtj9cgsfh2kdas5e6p90.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,46 @@
+{
+  "ruangan": [
+    {
+      "id": "FT-9",
+      "latitude": "-2.216116410721533",
+      "longitude": "113.8985477175574",
+      "radius" : "3"
+    },
+    {
+      "id": "R. Perpustakaan",
+      "latitude": "-2.215995910741592",
+      "longitude": "113.8986459897673",
+      "radius" : "3"
+    },
+    {
+      "id": "R. Lab 1",
+      "latitude": "-2.215967659134891",
+      "longitude": "113.8986768042401",
+      "radius" : "3"
+    },
+    {
+      "id": "R. Lab 2",
+      "latitude": "-2.216005416743195",
+      "longitude": "113.8987033818981",
+      "radius" : "3"
+    },
+    {
+      "id": "R. Lab 3",
+      "latitude": "-2.216038966207502",
+      "longitude": "113.8987207687385",
+      "radius" : "3"
+    },
+    {
+      "id": "R. Lab 3",
+      "latitude": "-2.216038966207502",
+      "longitude": "113.8987207687385",
+      "radius" : "3"
+    },
+    {
+      "id": "Me Here",
+      "latitude": "-33.87241",
+      "longitude": "151.27178",
+      "radius" : "100"
+    }
+  ]
+}

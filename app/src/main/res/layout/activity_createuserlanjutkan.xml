@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#294E7D"
+    tools:context="com.example.hown.lbsftupr.createuser.createuserlanjutkan">
+
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="30dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/white">
+
+            <TextView
+                android:id="@+id/textJudul"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/editUser"
+                android:layout_alignEnd="@+id/listView"
+                android:text="Info Akun Mahasiswa"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/textView14"
+                android:layout_alignBottom="@+id/textView14"
+                android:layout_alignStart="@+id/editPassword"
+                android:text="Password Akun"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/listView"
+                android:layout_below="@+id/edipass"
+                android:layout_marginTop="23dp"
+                android:layout_toStartOf="@+id/editPassword"
+                android:text="Matakuliah yang diambil"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/buttonSimpanAkun"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Simpan"
+                android:layout_alignParentBottom="true"
+                android:layout_toEndOf="@+id/buttonMKUAS"
+                android:layout_marginStart="14dp" />
+
+            <EditText
+                android:id="@+id/edipass"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/textView13"
+                android:layout_below="@+id/textView14"
+                android:layout_marginRight="179dp"
+                android:ems="10"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/editUser"
+                android:layout_below="@+id/editUser"
+                android:layout_marginTop="28dp"
+                android:text="Nim Mahasiswa"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/editUser"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignEnd="@+id/textView13"
+                android:layout_alignStart="@+id/textUser"
+                android:layout_below="@+id/textUser"
+                android:layout_marginTop="11dp"
+                android:ems="10"
+                android:hint="nama mahasiswa"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:id="@+id/textUser"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignStart="@+id/edipass"
+                android:layout_marginTop="24dp"
+                android:text="Nama Mahasiswa"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/ubahmk"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/buttonMKUAS"
+                android:layout_alignParentEnd="false"
+                android:layout_alignStart="@+id/listView"
+                android:text="Edit Matakuliah Reguler" />
+
+            <ListView
+                android:id="@+id/listView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/ubahmk"
+                android:layout_below="@+id/textView13"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="#294E7D" />
+
+            <EditText
+                android:id="@+id/editPassword"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/edipass"
+                android:layout_alignBottom="@+id/edipass"
+                android:layout_alignEnd="@+id/listView"
+                android:layout_alignStart="@+id/textJudul"
+                android:ems="10"
+                android:hint="password"
+                android:inputType="textPersonName"
+                android:password="true" />
+
+            <Button
+                android:id="@+id/buttonMKUAS"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignStart="@+id/ubahmk"
+                android:text="Edit Matakuliah UAS"
+                android:layout_alignEnd="@+id/ubahmk" />
+        </RelativeLayout>
+
+    </FrameLayout>
+
+</RelativeLayout>

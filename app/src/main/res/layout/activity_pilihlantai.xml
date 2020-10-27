@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#294E7D"
+    tools:context="com.example.hown.lbsftupr.pilihlantai">
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/buttonLantai1"
+        android:layout_centerInParent="true"
+        android:layout_marginEnd="61dp"
+        android:layout_toStartOf="@+id/buttonLantai1"
+        android:id="@+id/frameLayout3">
+
+        <Button
+            android:id="@+id/buttonLantai2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/buttonLantai1"
+            android:layout_centerVertical="true"
+            android:text="Lantai 1" />
+
+        <Button
+            android:id="@+id/buttonLantai1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="109dp"
+            android:text="Lantai 2" />
+
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/textView32"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/frameLayout3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="34dp"
+        android:text="Pilih Lantai"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+</RelativeLayout>

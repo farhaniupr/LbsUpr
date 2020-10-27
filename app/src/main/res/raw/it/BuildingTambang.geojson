@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Name": "Jurusan Tambang", "description": null, "timestamp": null, "begin": null, "end": null, "altitudeMode": "relativeToGround", "tessellate": -1, "extrude": 0, "visibility": -1, "drawOrder": null, "icon": null, "Lantai": "Lantai 1", "Fakultas___Jurusan": "Teknik Pertambangan", "Universitas": "Palangka Raya" }, "geometry": { "type": "Point", "coordinates": [ 113.898737211452101, -2.216392247430109, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Tambang", "description": null, "timestamp": null, "begin": null, "end": null, "altitudeMode": null, "tessellate": null, "extrude": null, "visibility": -1, "drawOrder": null, "icon": "http:\/\/i68.tinypic.com\/ra2sz4.jpg", "Lantai": null, "Fakultas___Jurusan": null, "Universitas": null }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 113.8989418623121, -2.216283925960502, 0.0 ], [ 113.8989418623121, -2.216475401898796, 0.0 ], [ 113.898544228230605, -2.216475401898796, 0.0 ], [ 113.898544228230605, -2.216283925960502, 0.0 ], [ 113.8989418623121, -2.216283925960502, 0.0 ] ] ] } }
+]
+}

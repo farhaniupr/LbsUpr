@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#294E7D"
+    tools:context="com.example.hown.lbsftupr.pilihjadwal">
+
+    <Button
+        android:id="@+id/buttonJadwalKuliah"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView7"
+        android:layout_marginTop="49dp"
+        android:text="Jadwal Kuliah"
+        android:layout_alignEnd="@+id/buttonJadwalUas"
+        android:layout_alignStart="@+id/buttonJadwalUas" />
+
+    <Button
+        android:id="@+id/buttonJadwalUas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/buttonJadwalKuliah"
+        android:layout_marginTop="61dp"
+        android:text="Jadwal UAS"
+        android:layout_alignStart="@+id/buttonJKM"
+        android:layout_alignEnd="@+id/buttonJKM" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="111dp"
+        android:text="Pilih Jadwal"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/buttonJKM"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonJadwalKuliah"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="76dp"
+        android:text="Jadwal Kuliah Mahasiswa" />
+
+    <Button
+        android:id="@+id/buttonJU"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonJKM"
+        android:layout_marginTop="17dp"
+        android:text="Jadwal UAS Mahasiswa"
+        android:layout_alignEnd="@+id/buttonJKM"
+        android:layout_alignStart="@+id/buttonJKM" />
+</RelativeLayout>

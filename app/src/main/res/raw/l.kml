@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Folder>
+	<name>My Places</name>
+	<open>1</open>
+	<Style>
+		<ListStyle>
+			<listItemType>check</listItemType>
+			<ItemIcon>
+				<state>open</state>
+				<href>:/mysavedplaces_open.png</href>
+			</ItemIcon>
+			<ItemIcon>
+				<state>closed</state>
+				<href>:/mysavedplaces_closed.png</href>
+			</ItemIcon>
+			<bgColor>00ffffff</bgColor>
+			<maxSnippetLines>2</maxSnippetLines>
+		</ListStyle>
+	</Style>
+	<GroundOverlay>
+		<name>Untitled Image Overlay</name>
+		<Camera>
+			<longitude>113.8982713207979</longitude>
+			<latitude>-2.216770441319442</latitude>
+			<altitude>161.2745887261183</altitude>
+			<heading>10.53729649418433</heading>
+			<tilt>29.23472812840219</tilt>
+			<roll>2.851977664395193</roll>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</Camera>
+		<Icon>
+			<href>http://i.imgur.com/dJXJdrH.png</href>
+			<viewBoundScale>0.75</viewBoundScale>
+		</Icon>
+		<LatLonBox>
+			<north>-2.216024528001429</north>
+			<south>-2.216422417241855</south>
+			<east>113.8984595587433</east>
+			<west>113.898294695293</west>
+			<rotation>29.56197357177734</rotation>
+		</LatLonBox>
+	</GroundOverlay>
+	<GroundOverlay>
+		<name>Untitled Image Overlay</name>
+		<open>1</open>
+		<Icon>
+			<href>http://i.imgur.com/dJXJdrH.png</href>
+			<viewBoundScale>0.75</viewBoundScale>
+		</Icon>
+		<LatLonBox>
+			<north>-2.215919220657065</north>
+			<south>-2.216183186020881</south>
+			<east>113.8987463443824</east>
+			<west>113.8984839538325</west>
+			<rotation>29.56197357177734</rotation>
+		</LatLonBox>
+	</GroundOverlay>
+	<GroundOverlay>
+		<name>Untitled Image Overlay</name>
+		<open>1</open>
+		<Icon>
+			<href>http://i.imgur.com/dJXJdrH.png</href>
+			<viewBoundScale>0.75</viewBoundScale>
+		</Icon>
+		<LatLonBox>
+			<north>-2.215471212333735</north>
+			<south>-2.215650792685124</south>
+			<east>113.8980619410129</east>
+			<west>113.8976042736627</west>
+			<rotation>27.60251413482352</rotation>
+		</LatLonBox>
+	</GroundOverlay>
+	<GroundOverlay>
+		<name>Untitled Image Overlay</name>
+		<open>1</open>
+		<Icon>
+			<href>http://i.imgur.com/dJXJdrH.png</href>
+			<viewBoundScale>0.75</viewBoundScale>
+		</Icon>
+		<LatLonBox>
+			<north>-2.215487676047018</north>
+			<south>-2.2159323554598</south>
+			<east>113.8974632683744</east>
+			<west>113.8968841326073</west>
+			<rotation>29.51984930075044</rotation>
+		</LatLonBox>
+	</GroundOverlay>
+	<GroundOverlay>
+		<name>Untitled Image Overlay</name>
+		<open>1</open>
+		<Icon>
+			<href>http://i.imgur.com/dJXJdrH.png</href>
+			<viewBoundScale>0.75</viewBoundScale>
+		</Icon>
+		<LatLonBox>
+			<north>-2.216261842369716</north>
+			<south>-2.217049541562498</south>
+			<east>113.8947486598162</east>
+			<west>113.8940802366375</west>
+			<rotation>29.51984977722168</rotation>
+		</LatLonBox>
+	</GroundOverlay>
+</Folder>
+</kml>

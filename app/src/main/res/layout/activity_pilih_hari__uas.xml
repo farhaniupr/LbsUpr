@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#294E7D"
+    tools:context="com.example.hown.lbsftupr.pilih_hari_UAS">
+
+
+    <Button
+        android:id="@+id/buttonSenin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="124dp"
+        android:text="Senin" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/buttonSenin"
+        android:layout_below="@+id/buttonSenin"
+        android:layout_marginTop="45dp"
+        android:text="Selasa" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/buttonSenin"
+        android:layout_below="@+id/button4"
+        android:layout_marginTop="49dp"
+        android:text="Rabu" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/buttonSenin"
+        android:layout_alignBottom="@+id/buttonSenin"
+        android:layout_marginStart="29dp"
+        android:layout_toEndOf="@+id/pilih_hari"
+        android:text="Kamis" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/button7"
+        android:layout_alignTop="@+id/button4"
+        android:text="JUMAT" />
+
+    <TextView
+        android:id="@+id/pilih_hari"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button7"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="35dp"
+        android:text="Pilih Hari"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/buttonSabtu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/button5"
+        android:layout_alignStart="@+id/button8"
+        android:text="Sabtu" />
+
+</RelativeLayout>

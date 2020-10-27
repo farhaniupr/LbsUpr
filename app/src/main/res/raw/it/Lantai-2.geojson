@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Name": "Lantai 2", "description": null, "timestamp": null, "begin": null, "end": null, "altitudeMode": null, "tessellate": null, "extrude": null, "visibility": -1, "drawOrder": null, "icon": "http:\/\/i68.tinypic.com\/vcz60z.jpg", "Lantai": null, "Fakultas___Jurusan": null, "Universitas": null }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 113.898435522710301, -2.216045415729297, 0.0 ], [ 113.898435522710301, -2.21645592130346, 0.0 ], [ 113.898274803925602, -2.21645592130346, 0.0 ], [ 113.898274803925602, -2.216045415729297, 0.0 ], [ 113.898435522710301, -2.216045415729297, 0.0 ] ] ] } },
+{ "type": "Feature", "properties": { "Name": "FT-13", "description": null, "timestamp": null, "begin": null, "end": null, "altitudeMode": null, "tessellate": -1, "extrude": 0, "visibility": -1, "drawOrder": null, "icon": null, "Lantai": "Lantai 2", "Fakultas___Jurusan": "Teknik", "Universitas": "Palangka Raya" }, "geometry": { "type": "Point", "coordinates": [ 113.898324583240296, -2.216143662959033, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "AUDIT", "description": null, "timestamp": null, "begin": null, "end": null, "altitudeMode": null, "tessellate": -1, "extrude": 0, "visibility": -1, "drawOrder": null, "icon": null, "Lantai": "Lantai 2", "Fakultas___Jurusan": "Teknik", "Universitas": "Palangka Raya" }, "geometry": { "type": "Point", "coordinates": [ 113.898406033997702, -2.216286714566391, 0.0 ] } }
+]
+}

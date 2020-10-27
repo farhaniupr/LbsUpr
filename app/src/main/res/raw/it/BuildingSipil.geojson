@@ -1,0 +1,10 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Name": "R. Baca dan Internet", "description": null, "timestamp": null, "begin": null, "end": null, "altitudeMode": null, "tessellate": -1, "extrude": 0, "visibility": -1, "drawOrder": null, "icon": null }, "geometry": { "type": "Point", "coordinates": [ 113.897499356799898, -2.216764428026576, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "FT 1", "description": null, "timestamp": null, "begin": null, "end": null, "altitudeMode": null, "tessellate": -1, "extrude": 0, "visibility": -1, "drawOrder": null, "icon": null }, "geometry": { "type": "Point", "coordinates": [ 113.897418119407504, -2.216618599376791, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "R. Sidang", "description": null, "timestamp": null, "begin": null, "end": null, "altitudeMode": null, "tessellate": -1, "extrude": 0, "visibility": -1, "drawOrder": null, "icon": null }, "geometry": { "type": "Point", "coordinates": [ 113.897459971057202, -2.216696861597642, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Lantai 2 Sipil", "description": null, "timestamp": null, "begin": null, "end": null, "altitudeMode": null, "tessellate": null, "extrude": null, "visibility": -1, "drawOrder": null, "icon": "http:\/\/i64.tinypic.com\/e1ez4y.jpg" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 113.897616706351698, -2.216570867486711, 0.0 ], [ 113.897616706351698, -2.216755448300685, 0.0 ], [ 113.897345870029298, -2.216755448300685, 0.0 ], [ 113.897345870029298, -2.216570867486711, 0.0 ], [ 113.897616706351698, -2.216570867486711, 0.0 ] ] ] } }
+]
+}

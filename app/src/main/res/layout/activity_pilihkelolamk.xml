@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#294E7D"
+    tools:context="com.example.hown.lbsftupr.createuser.ubahmatakuliahUAS">
+
+    <Button
+        android:id="@+id/buttonLantai1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Matakuliah"
+        android:layout_marginBottom="41dp"
+        android:layout_above="@+id/buttonLantai2"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/buttonLantai2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="UAS"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/buttonLantai1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="84dp"
+        android:text="Pilihan"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+</RelativeLayout>

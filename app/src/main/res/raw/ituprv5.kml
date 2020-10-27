@@ -1,0 +1,1136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Building TI.kml</name>
+	<Style id="sn_red-stars">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sh_red-stars">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sn_red-circle">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_red-circle">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_red-circle1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_red-circle0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_red-circle">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_red-circle0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_red-circle0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_red-circle00</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_red-stars">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_red-stars</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_red-stars</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="icon-1899-DB4436-normal0">
+		<IconStyle>
+			<color>ff3644db</color>
+			<Icon>
+				<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+			</Icon>
+			<hotSpot x="16" y="32" xunits="pixels" yunits="insetPixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="icon-1899-DB4436-highlight000">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="icon-1899-DB4436-highlight00">
+		<IconStyle>
+			<color>ff3644db</color>
+			<Icon>
+				<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+			</Icon>
+			<hotSpot x="16" y="32" xunits="pixels" yunits="insetPixels"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="icon-1899-DB44361">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#icon-1899-DB4436-normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#icon-1899-DB4436-highlight000</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_red-circle1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_red-circle</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_red-circle</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="icon-1899-DB4436-normal">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sh_red-circle0">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sh_red-circle00">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sn_red-circle0">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<StyleMap id="icon-1899-DB443610">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#icon-1899-DB4436-normal0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#icon-1899-DB4436-highlight00</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_red-circle1">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-circle-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Folder>
+		<name>BuildingIT</name>
+		<open>1</open>
+		<Placemark>
+			<name>Jurusan TI</name>
+			<Camera>
+				<longitude>113.8986086357445</longitude>
+				<latitude>-2.216130148083237</latitude>
+				<altitude>72.2043437808897</altitude>
+				<heading>-25.22710965632468</heading>
+				<tilt>11.07168988033154</tilt>
+				<roll>-4.362844109174215</roll>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</Camera>
+			<styleUrl>#icon-1899-DB44361</styleUrl>
+			<ExtendedData>
+				<Data name="Fakultas">
+					<value>Teknik</value>
+				</Data>
+				<Data name="Universitas">
+					<value>Palangka Raya</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>113.8985908114913,-2.216014391161136,0</coordinates>
+			</Point>
+		</Placemark>
+		<GroundOverlay>
+			<name>Lantai 1</name>
+			<Icon>
+				<href>http://i66.tinypic.com/jjtc2f.png</href>
+				<refreshMode>onInterval</refreshMode>
+				<refreshInterval>300</refreshInterval>
+				<viewBoundScale>0.75</viewBoundScale>
+			</Icon>
+			<LatLonBox>
+				<north>-2.215907691852833</north>
+				<south>-2.216207916935385</south>
+				<east>113.8987851539852</east>
+				<west>113.8984599122433</west>
+				<rotation>-0.9755283849528296</rotation>
+			</LatLonBox>
+		</GroundOverlay>
+		<Placemark>
+			<name>FT9</name>
+			<description>Ruang Kelas</description>
+			<LookAt>
+				<longitude>113.8986097297274</longitude>
+				<latitude>-2.216081942695167</latitude>
+				<altitude>0</altitude>
+				<heading>-0.4659429485172204</heading>
+				<tilt>32.67044887603007</tilt>
+				<range>76.42156089720778</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_red-stars</styleUrl>
+			<ExtendedData>
+				<Data name="Lantai">
+					<value>Lantai 1</value>
+				</Data>
+				<Data name="Fakultas / Jurusan">
+					<value>Teknik Informatika</value>
+				</Data>
+				<Data name="Universitas">
+					<value>Palangka Raya</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>113.8985477175574,-2.216116410721533,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Ruang Dosen</name>
+			<LookAt>
+				<longitude>113.8986109566583</longitude>
+				<latitude>-2.21609573499924</latitude>
+				<altitude>0</altitude>
+				<heading>-0.4659429959853982</heading>
+				<tilt>32.67044887603006</tilt>
+				<range>76.42156089826047</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_red-circle0</styleUrl>
+			<ExtendedData>
+				<Data name="Lantai">
+					<value>Lantai 1</value>
+				</Data>
+				<Data name="Fakultas / Jurusan">
+					<value>Teknik Informatika</value>
+				</Data>
+				<Data name="Universitas">
+					<value>Palangka Raya</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>113.8984974789255,-2.216053263492309,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Ruang Penjaminan Mutu</name>
+			<LookAt>
+				<longitude>113.8986109566583</longitude>
+				<latitude>-2.21609573499924</latitude>
+				<altitude>0</altitude>
+				<heading>-0.4659429959853982</heading>
+				<tilt>32.67044887603006</tilt>
+				<range>76.42156089826047</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_red-circle0</styleUrl>
+			<ExtendedData>
+				<Data name="Lantai">
+					<value>Lantai 1</value>
+				</Data>
+				<Data name="Fakultas / Jurusan">
+					<value>Teknik Informatika</value>
+				</Data>
+				<Data name="Universitas">
+					<value>Palangka Raya</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>113.8985449167951,-2.216048136825486,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Ruang Kajur</name>
+			<LookAt>
+				<longitude>113.8985352203389</longitude>
+				<latitude>-2.21595543103068</latitude>
+				<altitude>0</altitude>
+				<heading>-0.4658713531959013</heading>
+				<tilt>28.58778469818205</tilt>
+				<range>55.14500084370486</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_red-circle0</styleUrl>
+			<ExtendedData>
+				<Data name="Lantai">
+					<value>Lantai 1</value>
+				</Data>
+				<Data name="Fakultas / Jurusan">
+					<value>Teknik Informatika</value>
+				</Data>
+				<Data name="Universitas">
+					<value>Palangka Raya</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>113.8985284944893,-2.216006884711219,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Ruang Perpusputakaan</name>
+			<LookAt>
+				<longitude>113.8985639099475</longitude>
+				<latitude>-2.215980633263248</latitude>
+				<altitude>0</altitude>
+				<heading>-0.4658724624220496</heading>
+				<tilt>28.58778469818207</tilt>
+				<range>55.14500084304097</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_red-circle0</styleUrl>
+			<ExtendedData>
+				<Data name="Lantai">
+					<value>Lantai 1</value>
+				</Data>
+				<Data name="Fakultas / Jurusan">
+					<value>Teknik Informatika</value>
+				</Data>
+				<Data name="Universitas">
+					<value>Palangka Raya</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>113.8986459897673,-2.215995910741592,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Ruang TU</name>
+			<LookAt>
+				<longitude>113.8985352885598</longitude>
+				<latitude>-2.215954873855434</latitude>
+				<altitude>0</altitude>
+				<heading>-0.4658713558350555</heading>
+				<tilt>28.58778469818207</tilt>
+				<range>55.14500084376855</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_red-circle0</styleUrl>
+			<ExtendedData>
+				<Data name="Lantai">
+					<value>Lantai 1</value>
+				</Data>
+				<Data name="Fakultas / Jurusan">
+					<value>Teknik Informatika</value>
+				</Data>
+				<Data name="Universitas">
+					<value>Palangka Raya</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>113.8986429973218,-2.215945059795024,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Ruang Lab 1</name>
+			<LookAt>
+				<longitude>113.8985639099475</longitude>
+				<latitude>-2.215980633263248</latitude>
+				<altitude>0</altitude>
+				<heading>-0.4658724624220496</heading>
+				<tilt>28.58778469818207</tilt>
+				<range>55.14500084304097</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_red-circle0</styleUrl>
+			<ExtendedData>
+				<Data name="Lantai">
+					<value>Lantai 1</value>
+				</Data>
+				<Data name="Fakultas / Jurusan">
+					<value>Teknik Informatika</value>
+				</Data>
+				<Data name="Universitas">
+					<value>Palangka Raya</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>113.8986768042401,-2.215967659134891,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Ruang Lab 2</name>
+			<LookAt>
+				<longitude>113.8985639099475</longitude>
+				<latitude>-2.215980633263248</latitude>
+				<altitude>0</altitude>
+				<heading>-0.4658724624220496</heading>
+				<tilt>28.58778469818207</tilt>
+				<range>55.14500084304097</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_red-circle0</styleUrl>
+			<ExtendedData>
+				<Data name="Lantai">
+					<value>Lantai 1</value>
+				</Data>
+				<Data name="Fakultas / Jurusan">
+					<value>Teknik Informatika</value>
+				</Data>
+				<Data name="Universitas">
+					<value>Palangka Raya</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>113.8987033818981,-2.216005416743195,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Ruang Lab 3</name>
+			<LookAt>
+				<longitude>113.8985639099475</longitude>
+				<latitude>-2.215980633263248</latitude>
+				<altitude>0</altitude>
+				<heading>-0.4658724624220496</heading>
+				<tilt>28.58778469818207</tilt>
+				<range>55.14500084304097</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_red-circle0</styleUrl>
+			<ExtendedData>
+				<Data name="Lantai">
+					<value>Lantai 1</value>
+				</Data>
+				<Data name="Fakultas / Jurusan">
+					<value>Teknik Informatika</value>
+				</Data>
+				<Data name="Universitas">
+					<value>Palangka Raya</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>113.8987207687385,-2.216038966207502,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>WC</name>
+			<Camera>
+				<longitude>113.8987309604963</longitude>
+				<latitude>-2.216173732973817</latitude>
+				<altitude>61.76575732565276</altitude>
+				<heading>-24.0991223112374</heading>
+				<tilt>14.87228602177036</tilt>
+				<roll>-3.263020614667187</roll>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</Camera>
+			<styleUrl>#msn_red-circle</styleUrl>
+			<ExtendedData>
+				<Data name="Lantai">
+					<value>Lantai 1</value>
+				</Data>
+				<Data name="Fakultas / Jurusan">
+					<value>Teknik Informatika</value>
+				</Data>
+				<Data name="Universitas">
+					<value>Palangka Raya</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>113.8985689700498,-2.216174144458766,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>WC Dosen</name>
+			<LookAt>
+				<longitude>113.8985736140626</longitude>
+				<latitude>-2.216015620508895</latitude>
+				<altitude>0</altitude>
+				<heading>-0.4658728375171136</heading>
+				<tilt>28.58778469818205</tilt>
+				<range>55.14500084210277</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_red-circle0</styleUrl>
+			<ExtendedData>
+				<Data name="Lantai">
+					<value>Lantai 1</value>
+				</Data>
+				<Data name="Fakultas / Jurusan">
+					<value>Teknik Informatika</value>
+				</Data>
+				<Data name="Universitas">
+					<value>Palangka Raya</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>113.8987375098031,-2.216064580961765,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Ruang Dosen</name>
+			<LookAt>
+				<longitude>113.8985736140626</longitude>
+				<latitude>-2.216015620508895</latitude>
+				<altitude>0</altitude>
+				<heading>-0.4658728375171136</heading>
+				<tilt>28.58778469818205</tilt>
+				<range>55.14500084210277</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_red-circle0</styleUrl>
+			<ExtendedData>
+				<Data name="Lantai">
+					<value>Lantai 1</value>
+				</Data>
+				<Data name="Fakultas / Jurusan">
+					<value>Teknik Informatika</value>
+				</Data>
+				<Data name="Universitas">
+					<value>Palangka Raya</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>113.8987527681559,-2.216086901560446,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+	<Folder>
+		<name>BuildingTambang</name>
+		<Placemark>
+			<name>Jurusan Tambang</name>
+			<LookAt>
+				<longitude>113.8988394194927</longitude>
+				<latitude>-2.216374033463858</latitude>
+				<altitude>0</altitude>
+				<heading>-26.30092762920812</heading>
+				<tilt>32.06514035694405</tilt>
+				<range>160.8098799198309</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_red-circle0</styleUrl>
+			<ExtendedData>
+				<Data name="Lantai">
+					<value>Lantai 1</value>
+				</Data>
+				<Data name="Fakultas / Jurusan">
+					<value>Teknik Pertambangan</value>
+				</Data>
+				<Data name="Universitas">
+					<value>Palangka Raya</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>113.8987361111111,-2.216391666666667,0</coordinates>
+			</Point>
+		</Placemark>
+		<GroundOverlay>
+			<name>Tambang</name>
+			<Icon>
+				<href>http://i68.tinypic.com/ra2sz4.jpg</href>
+				<viewBoundScale>0.75</viewBoundScale>
+			</Icon>
+			<LatLonBox>
+				<north>-2.216283925960502</north>
+				<south>-2.216475401898796</south>
+				<east>113.8989418623121</east>
+				<west>113.8985442282306</west>
+				<rotation>-151.4212231064374</rotation>
+			</LatLonBox>
+		</GroundOverlay>
+	</Folder>
+	<Folder>
+		<name>BuildingKelas</name>
+		<open>1</open>
+		<Style>
+			<ListStyle>
+				<listItemType>check</listItemType>
+				<bgColor>00ffffff</bgColor>
+				<maxSnippetLines>2</maxSnippetLines>
+			</ListStyle>
+		</Style>
+		<Folder>
+			<name>Lantai 1</name>
+			<open>1</open>
+			<GroundOverlay>
+				<name>Lantai 1</name>
+				<Icon>
+					<href>http://i65.tinypic.com/k0frll.jpg</href>
+					<viewBoundScale>0.75</viewBoundScale>
+				</Icon>
+				<LatLonBox>
+					<north>-2.216044444444445</north>
+					<south>-2.216455555555556</south>
+					<east>113.8984361111111</east>
+					<west>113.8982722222222</west>
+					<rotation>210.6689</rotation>
+				</LatLonBox>
+			</GroundOverlay>
+			<Placemark>
+				<name>FT-9</name>
+				<LookAt>
+					<longitude>113.8982739592924</longitude>
+					<latitude>-2.216319845748517</latitude>
+					<altitude>0</altitude>
+					<heading>0.00448140980226088</heading>
+					<tilt>21.56514524021044</tilt>
+					<range>129.9004608069223</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_red-circle0</styleUrl>
+				<ExtendedData>
+					<Data name="Lantai">
+						<value>Lantai 1</value>
+					</Data>
+					<Data name="Fakultas / Jurusan">
+						<value>Teknik</value>
+					</Data>
+					<Data name="Universitas">
+						<value>Palangka Raya</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>113.8984239430719,-2.216331366194091,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>FT-10</name>
+				<LookAt>
+					<longitude>113.8982739592924</longitude>
+					<latitude>-2.216319845748517</latitude>
+					<altitude>0</altitude>
+					<heading>0.00448140980226088</heading>
+					<tilt>21.56514524021044</tilt>
+					<range>129.9004608069223</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_red-circle0</styleUrl>
+				<ExtendedData>
+					<Data name="Lantai">
+						<value>Lantai 1</value>
+					</Data>
+					<Data name="Fakultas / Jurusan">
+						<value>Teknik</value>
+					</Data>
+					<Data name="Universitas">
+						<value>Palangka Raya</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>113.8983831434401,-2.216270858292209,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>FT-11</name>
+				<LookAt>
+					<longitude>113.8982739450814</longitude>
+					<latitude>-2.216320337040751</latitude>
+					<altitude>0</altitude>
+					<heading>0.002918258627938576</heading>
+					<tilt>3.581321212229053</tilt>
+					<range>137.0798706888772</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_red-circle0</styleUrl>
+				<ExtendedData>
+					<Data name="Lantai">
+						<value>Lantai 1</value>
+					</Data>
+					<Data name="Fakultas / Jurusan">
+						<value>Teknik</value>
+					</Data>
+					<Data name="Universitas">
+						<value>Palangka Raya</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>113.8983531900065,-2.216198639540293,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>FT-12</name>
+				<LookAt>
+					<longitude>113.8982739450814</longitude>
+					<latitude>-2.216320337040751</latitude>
+					<altitude>0</altitude>
+					<heading>0.002918258627938576</heading>
+					<tilt>3.581321212229053</tilt>
+					<range>137.0798706888772</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_red-circle0</styleUrl>
+				<ExtendedData>
+					<Data name="Lantai">
+						<value>Lantai 1</value>
+					</Data>
+					<Data name="Fakultas / Jurusan">
+						<value>Teknik</value>
+					</Data>
+					<Data name="Universitas">
+						<value>Palangka Raya</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>113.8983089754788,-2.21613756510667,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>WC</name>
+				<LookAt>
+					<longitude>113.8983843193374</longitude>
+					<latitude>-2.216340502638703</latitude>
+					<altitude>0</altitude>
+					<heading>0.001081605035816626</heading>
+					<tilt>16.66098960423709</tilt>
+					<range>84.40908500575652</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_red-circle0</styleUrl>
+				<ExtendedData>
+					<Data name="Lantai">
+						<value>Lantai 1</value>
+					</Data>
+					<Data name="Fakultas / Jurusan">
+						<value>Teknik</value>
+					</Data>
+					<Data name="Universitas">
+						<value>Palangka Raya</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>113.8984845924252,-2.216362186573206,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>WC</name>
+				<LookAt>
+					<longitude>113.8983843193374</longitude>
+					<latitude>-2.216340502638703</latitude>
+					<altitude>0</altitude>
+					<heading>0.001081605035816626</heading>
+					<tilt>16.66098960423709</tilt>
+					<range>84.40908500575652</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_red-circle0</styleUrl>
+				<ExtendedData>
+					<Data name="Lantai">
+						<value>Lantai 1</value>
+					</Data>
+					<Data name="Fakultas / Jurusan">
+						<value>Teknik</value>
+					</Data>
+					<Data name="Universitas">
+						<value>Palangka Raya</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>113.8983092481367,-2.216074925737548,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>Lantai 2</name>
+			<open>1</open>
+			<GroundOverlay>
+				<name>Lantai 2</name>
+				<Icon>
+					<href>http://i68.tinypic.com/vcz60z.jpg</href>
+					<viewBoundScale>0.75</viewBoundScale>
+				</Icon>
+				<LatLonBox>
+					<north>-2.216045415729297</north>
+					<south>-2.21645592130346</south>
+					<east>113.8984355227103</east>
+					<west>113.8982748039256</west>
+					<rotation>210.6688930993909</rotation>
+				</LatLonBox>
+			</GroundOverlay>
+			<Placemark>
+				<name>FT-13</name>
+				<LookAt>
+					<longitude>113.8983461762624</longitude>
+					<latitude>-2.216212727452087</latitude>
+					<altitude>0</altitude>
+					<heading>10.01476141716948</heading>
+					<tilt>25.4688575996008</tilt>
+					<range>73.16015803901374</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#icon-1899-DB443610</styleUrl>
+				<ExtendedData>
+					<Data name="Lantai">
+						<value>Lantai 2</value>
+					</Data>
+					<Data name="Fakultas / Jurusan">
+						<value>Teknik</value>
+					</Data>
+					<Data name="Universitas">
+						<value>Palangka Raya</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>113.8983245832403,-2.216143662959033,4.999999999999999</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>AUDIT</name>
+				<LookAt>
+					<longitude>113.8984289451728</longitude>
+					<latitude>-2.21623574137511</latitude>
+					<altitude>0</altitude>
+					<heading>10.01475821663323</heading>
+					<tilt>25.46885759960083</tilt>
+					<range>73.16015804158383</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#icon-1899-DB443610</styleUrl>
+				<ExtendedData>
+					<Data name="Lantai">
+						<value>Lantai 2</value>
+					</Data>
+					<Data name="Fakultas / Jurusan">
+						<value>Teknik</value>
+					</Data>
+					<Data name="Universitas">
+						<value>Palangka Raya</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>113.8984060339977,-2.216286714566391,4.999999999999999</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+	</Folder>
+	<Folder>
+		<name>BuildingArsitek</name>
+		<open>1</open>
+		<Placemark>
+			<name>FT 4</name>
+			<LookAt>
+				<longitude>113.8980187660565</longitude>
+				<latitude>-2.216295325493492</latitude>
+				<altitude>0</altitude>
+				<heading>-0.0006390282341498546</heading>
+				<tilt>24.50012752649118</tilt>
+				<range>72.74265427229152</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_red-circle1</styleUrl>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>113.8979103754101,-2.216213389797686,4.999999999999999</coordinates>
+			</Point>
+		</Placemark>
+		<GroundOverlay>
+			<name>Lantai 2 Arsitek</name>
+			<Icon>
+				<href>http://i63.tinypic.com/2qx2l2q.jpg</href>
+				<refreshMode>onInterval</refreshMode>
+				<refreshInterval>60</refreshInterval>
+				<viewBoundScale>0.75</viewBoundScale>
+			</Icon>
+			<LatLonBox>
+				<north>-2.216127777777778</north>
+				<south>-2.216269444444444</south>
+				<east>113.8981027777778</east>
+				<west>113.8978416666667</west>
+				<rotation>-149.3744</rotation>
+			</LatLonBox>
+		</GroundOverlay>
+		<Placemark>
+			<name>Aula Fakultas</name>
+			<LookAt>
+				<longitude>113.8980187660565</longitude>
+				<latitude>-2.216295325493492</latitude>
+				<altitude>0</altitude>
+				<heading>-0.0006390282341498546</heading>
+				<tilt>24.50012752649118</tilt>
+				<range>72.74265427229152</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_red-circle1</styleUrl>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>113.8980164608375,-2.216153866206549,4.999999999999999</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+	<Folder>
+		<name>BuildingRuangKelasII</name>
+		<open>1</open>
+		<Placemark>
+			<name>FT 2</name>
+			<LookAt>
+				<longitude>113.8976374744883</longitude>
+				<latitude>-2.216551588651533</latitude>
+				<altitude>0</altitude>
+				<heading>-0.0001663965331594809</heading>
+				<tilt>23.82278514949127</tilt>
+				<range>113.8743374822006</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_red-circle1</styleUrl>
+			<Point>
+				<extrude>1</extrude>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>113.8978413676266,-2.216382286601192,4.999999999999999</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>FT 3</name>
+			<LookAt>
+				<longitude>113.8976374744883</longitude>
+				<latitude>-2.216551588651533</latitude>
+				<altitude>0</altitude>
+				<heading>-0.0001663965331594809</heading>
+				<tilt>23.82278514949127</tilt>
+				<range>113.8743374822006</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_red-circle1</styleUrl>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>113.897901021894,-2.216524132591486,4.999999999999999</coordinates>
+			</Point>
+		</Placemark>
+		<GroundOverlay>
+			<name>Lantai 2 Kelas 2</name>
+			<Icon>
+				<href>http://i64.tinypic.com/x3y4nl.jpg</href>
+				<refreshMode>onInterval</refreshMode>
+				<refreshInterval>300</refreshInterval>
+				<viewBoundScale>0.75</viewBoundScale>
+			</Icon>
+			<LatLonBox>
+				<north>-2.216324</north>
+				<south>-2.216595</south>
+				<east>113.897916</east>
+				<west>113.897806</west>
+				<rotation>-150.5504</rotation>
+			</LatLonBox>
+		</GroundOverlay>
+	</Folder>
+	<Folder>
+		<name>BuildingSipil</name>
+		<open>1</open>
+		<Placemark>
+			<name>R. Baca dan Internet</name>
+			<LookAt>
+				<longitude>113.8974373849547</longitude>
+				<latitude>-2.216757604394839</latitude>
+				<altitude>0</altitude>
+				<heading>-0.0001933979870859901</heading>
+				<tilt>31.68623254027906</tilt>
+				<range>80.24728524666237</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_red-circle1</styleUrl>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>113.8974993567999,-2.216764428026576,4.999999999999999</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>FT 1</name>
+			<LookAt>
+				<longitude>113.8974396498708</longitude>
+				<latitude>-2.216643799268548</latitude>
+				<altitude>0</altitude>
+				<heading>-0.0003495282153080197</heading>
+				<tilt>29.17345617119916</tilt>
+				<range>99.50883399561158</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_red-circle1</styleUrl>
+			<Point>
+				<extrude>1</extrude>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>113.8974181194075,-2.216618599376791,4.999999999999999</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>R. Sidang</name>
+			<LookAt>
+				<longitude>113.8974187925339</longitude>
+				<latitude>-2.216761616109615</latitude>
+				<altitude>0</altitude>
+				<heading>-0.0001257736012589589</heading>
+				<tilt>33.72998752892114</tilt>
+				<range>120.834402275626</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_red-circle1</styleUrl>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>113.8974599710572,-2.216696861597642,4.999999999999999</coordinates>
+			</Point>
+		</Placemark>
+		<GroundOverlay>
+			<name>Lantai 2 Sipil</name>
+			<Icon>
+				<href>http://i64.tinypic.com/e1ez4y.jpg</href>
+				<viewBoundScale>0.75</viewBoundScale>
+			</Icon>
+			<LatLonBox>
+				<north>-2.216570867486711</north>
+				<south>-2.216755448300685</south>
+				<east>113.8976167063517</east>
+				<west>113.8973458700293</west>
+				<rotation>121.0450905842079</rotation>
+			</LatLonBox>
+		</GroundOverlay>
+	</Folder>
+</Document>
+</kml>

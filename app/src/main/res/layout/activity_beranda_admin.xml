@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/w2"
+    tools:context="com.example.hown.lbsftupr.admin.BerandaAdmin">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true">
+
+        <Button
+            android:id="@+id/buttonUpdateJadwalKuliah"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/buttonUpdateRuangan"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="false"
+            android:layout_marginTop="36dp"
+            android:text="Kelola Jadwal Ujian" />
+
+        <Button
+            android:id="@+id/buttonUpdateRuangan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/buttonUpdateJadwalKuliah"
+            android:layout_alignStart="@+id/buttonUpdateJadwalKuliah"
+            android:layout_below="@+id/buttonLihatRuangan"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="false"
+            android:layout_marginTop="34dp"
+            android:text="Kelola Ruangan" />
+
+        <Button
+            android:id="@+id/buttonLihatRuangan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/buttonUpdateRuangan"
+            android:layout_alignStart="@+id/buttonUpdateRuangan"
+            android:layout_centerInParent="false"
+            android:layout_centerVertical="false"
+            android:text="Log Out" />
+
+        <!-- <Button
+            android:id="@+id/buttonAkunAdmin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/button2"
+            android:layout_alignStart="@+id/button2"
+            android:layout_below="@+id/button2"
+            android:layout_marginTop="30dp"
+            android:text="Kelola Akun" />-->
+
+        <Button
+            android:id="@+id/buttonTest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/button2"
+            android:layout_alignStart="@+id/button2"
+            android:layout_below="@+id/button2"
+            android:layout_marginTop="27dp"
+            android:text="Import Data" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/buttonUpdateJadwalKuliah"
+            android:layout_alignStart="@+id/buttonUpdateJadwalKuliah"
+            android:layout_below="@+id/buttonUpdateJadwalKuliah"
+            android:layout_marginTop="35dp"
+            android:text="Kelola Tata Tertib" />
+    </RelativeLayout>
+
+
+</RelativeLayout>

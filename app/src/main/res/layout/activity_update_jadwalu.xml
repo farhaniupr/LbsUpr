@@ -1,0 +1,223 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_update_jadwal_k"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light"
+    android:orientation="vertical"
+    android:weightSum="6"
+    app:layout_collapseParallaxMultiplier="1.0"
+    tools:context="com.example.hown.lbsftupr.kelola_jadwalU">
+
+    <!-- The primary full-screen view. This can be replaced with whatever view
+         is needed to present your content, e.g. VideoView, SurfaceView,
+         TextureView, etc. -->
+
+    <!-- This FrameLayout insets its children based on system windows using
+         android:fitsSystemWindows. -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:background="#294E7D"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView30"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Kelola Jadwal UAS"
+            android:textColor="@android:color/white"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <ListView
+            android:id="@+id/listJadwalU"
+            android:layout_width="match_parent"
+            android:layout_height="280dp"
+            android:layout_weight="1"
+            android:background="#294E7D" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:weightSum="1.2">
+
+        <Spinner
+            android:id="@+id/edKodeMK"
+            android:layout_width="83dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            android:hint="Kode MK"
+            android:inputType="textPersonName"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/matakuliahU"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.6"
+            android:hint="Mata Kuliah"
+            android:textColor="#000000"
+            android:textSize="16dp" />
+
+        <EditText
+            android:id="@+id/jamU"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            android:clickable="true"
+            android:focusable="false"
+            android:hint="Jam"
+            android:inputType="time"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:weightSum="1.2">
+
+        <EditText
+            android:id="@+id/lokasiU"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            android:hint="Lokasi"
+            android:textColor="#000000"
+            android:textSize="16dp" />
+
+        <EditText
+            android:id="@+id/editTextTanggalU"
+            android:layout_width="105dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            android:clickable="true"
+
+            android:editable="false"
+            android:focusable="false"
+            android:hint="Tanggal"
+            android:inputType="date"
+            android:textSize="16sp" />
+
+        <Spinner
+            android:id="@+id/dsn_koorU"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.6"
+            android:hint="Dosen Koordinator"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="#36FFFFFF"
+        android:weightSum="1.2">
+
+
+        <Button
+            android:id="@+id/loadBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_weight="0.4"
+            android:text="Refresh data"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/addBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_weight="0.4"
+            android:text="Add item"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/updateBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/loadBtn"
+            android:layout_below="@id/loadBtn"
+            android:layout_weight="0.4"
+            android:text="Update item"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="#36FFFFFF"
+        android:weightSum="1.2">
+
+        <Button
+            android:id="@+id/deleteBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/updateBtn"
+            android:layout_alignBottom="@+id/updateBtn"
+            android:layout_alignEnd="@+id/addBtn"
+            android:layout_weight="0.4"
+            android:text="Delete item"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/findBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/updateBtn"
+
+            android:layout_below="@+id/updateBtn"
+            android:layout_weight="0.4"
+            android:text="Cancel"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/buttonKelolaU"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/findBtn"
+            android:layout_alignBottom="@+id/findBtn"
+            android:layout_alignEnd="@+id/deleteBtn"
+            android:layout_weight="0.4"
+            android:text="Edit Lokasi"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#294E7D"
+    tools:context="com.example.hown.lbsftupr.createuser.createnewuser">
+
+    <FrameLayout
+        android:id="@+id/frameLayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="25dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/white">
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/frameLayout2"
+                android:layout_below="@+id/textJudul"
+                android:layout_marginStart="9dp"
+                android:layout_marginTop="212dp"
+                android:text="Nama Mahasiswa"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/buttonLanjutkan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginBottom="17dp"
+                android:layout_marginEnd="16dp"
+                android:text="OK"
+                tools:layout_editor_absoluteX="286dp"
+                tools:layout_editor_absoluteY="465dp" />
+
+            <EditText
+                android:id="@+id/edipass"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/textView14"
+                android:layout_marginStart="12dp"
+                android:ems="10"
+                android:hint="Masukkan Password"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_alignStart="@+id/edipass"
+                android:layout_below="@+id/editUser"
+                android:layout_marginTop="34dp"
+                android:text="Password"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/editUser"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/textView14"
+                android:layout_below="@+id/textUser"
+                android:ems="10"
+                android:hint="Isi Ex: dbc113124"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:id="@+id/textUser"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignStart="@+id/editUser"
+                android:layout_marginTop="38dp"
+                android:text="Username"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/editText8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/edipass"
+                android:layout_below="@+id/edipass"
+                android:layout_marginTop="41dp"
+                android:ems="10"
+                android:hint="nama mahasiswa"
+                android:inputType="textPersonName" />
+        </RelativeLayout>
+
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/frameLayout2"
+        android:layout_marginTop="7dp"
+        android:text="Buat Akun Baru"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
